@@ -46,6 +46,21 @@ public class Test03Operator {
 		// 6.삼항연산 (비교 or 논리)?(참값):(거짓값)
 		System.out.println(5==55?"참":"거짓");
 		System.out.println(5==55?"참1":5==5?"참2":"거짓");
+		
+		// 7.단일항연산 ++, --
+		int a = 10;
+		System.out.println("a:" + a);
+		// a = a + 1;
+		// a += 1;
+		// ++a;
+		a++;
+		System.out.println("a:" + a);
+		
+		int b = 10;
+		System.out.println("b:" + b);
+		b = ++a;
+		System.out.println("a:" + a);
+		System.out.println("b:" + b);
 	}
 
 }
