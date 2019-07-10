@@ -38,7 +38,7 @@ public class Test02Type {
 		double db = 3.141592;
 		System.out.println(Double.MIN_VALUE + " ~ " + Double.MAX_VALUE);
 		
-		// 참조 타입
+		// 참조 타입 - 주소 생성연산자 new
 		String name = new String("kim");
 		System.out.println(name.hashCode());
 		System.out.println("kime".hashCode());
