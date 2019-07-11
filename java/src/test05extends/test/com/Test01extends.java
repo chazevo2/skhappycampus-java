@@ -1,4 +1,4 @@
-package Test05extends.test.com;
+package test05extends.test.com;
 
 public class Test01extends /* extends Object */ {
 
