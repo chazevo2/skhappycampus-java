@@ -1,7 +1,6 @@
 package test05extends.test.com;
 
 public class Test01extends /* extends Object */ {
-
 	public void aaa() {
 		System.out.println(toString());
 		/* this. */bbb();
@@ -22,15 +21,15 @@ public class Test01extends /* extends Object */ {
 
 		// 단일 상속
 		// class extends another class - 단 한개의 class만 상속
-		// interface extends another interface - ~ interface만 상속
 		// 다중 상속
 		// class implements interface1, interface2... - 여러 개의 interface 상속 가능
+		// interface extends another interface, others, ... 
 
 		Test01extends test01extends = new Test01extends();
 		test01extends.aaa();
 
-		System.out.println(Test01aaa.name1);// static
-		Test01aaa ta = new Test01aaa();
+		System.out.println(Test01AAA.name1);// static
+		Test01AAA ta = new Test01AAA();
 		System.out.println(ta.name2);
 	}
 
