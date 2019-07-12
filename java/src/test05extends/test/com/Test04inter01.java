@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public interface Test04inter01 extends Serializable {
 	// 추상클래스 - 단일상속만 가능 / 인터페이스 - 다중상속 가능
-	// interface 전역변수 - static, final
+	// interface 전역변수 - public static final
 	/* public static final */String USER_NAME = "kim";
 
 	// method - default, static, abstract
