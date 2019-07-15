@@ -1,121 +1,121 @@
-1. Java ì—ì„œ ê¸°ë³¸íƒ€ìž…ê³¼ ê´€ë ¨ì´ ì—†ëŠ” ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+1. Java ¿¡¼­ ±âº»Å¸ÀÔ°ú °ü·ÃÀÌ ¾ø´Â °ÍÀº ¹«¾ùÀÔ´Ï±î? *
 int
 String*
 long
 byte
 
-2. ë‹¤ìŒ ì¤‘ Java ì—ì„œ ì‚¬ìš©í•  ìˆ˜ ì—†ëŠ” typeì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+2. ´ÙÀ½ Áß Java ¿¡¼­ »ç¿ëÇÒ ¼ö ¾ø´Â typeÀº ¹«¾ùÀÔ´Ï±î? *
 String
 Date
 Long
 Var*
 
-3. ë‹¤ìŒ ì¤‘ ê²°ê³¼ê°’ì´ trueì¸ ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+3. ´ÙÀ½ Áß °á°ú°ªÀÌ trueÀÎ °ÍÀº ¹«¾ùÀÔ´Ï±î? *
 System.out.println("a" == new String("a"))
-System.out.println("a" == new String("a").toString());*
+System.out.println("a" == new String("a").toString());
 System.out.println("a" == new String("a"));
-System.out.println("a" != new String("a"));
+System.out.println("a" != new String("a"));*
 
-4. ë‹¤ìŒ ì¤‘ ë³€ìˆ˜ ì„ ì–¸ì‹œ ì •ì˜ëœ class ë‚´ì—ì„œë§Œ ì œí•œí•˜ëŠ” ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+4. ´ÙÀ½ Áß º¯¼ö ¼±¾ð½Ã Á¤ÀÇµÈ class ³»¿¡¼­¸¸ Á¦ÇÑÇÏ´Â °ÍÀº ¹«¾ùÀÔ´Ï±î? *
 default
 public
 protected
 private*
 
-5. ë‹¤ìŒ ì¤‘ ArrayList ë©”ì†Œë“œê°€ ì•„ë‹Œ ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+5. ´ÙÀ½ Áß ArrayList ¸Þ¼Òµå°¡ ¾Æ´Ñ °ÍÀº ¹«¾ùÀÔ´Ï±î? *
 add()
 set()
 remove()
 update*
 
-6. ë‹¤ìŒ ì¤‘ Javaì—ì„œ ì—°ì‚°ìžì™€ ì—°ê²°ì´ ìž˜ëª» ëœ ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
-ëŒ€ìž…ì—°ì‚°ìž : +=
-ê´€ê³„ì—°ì‚°ìž : ==
-ë‹¨í•­ì—°ì‚°ìž : ++
-ë¹„êµì—°ì‚°ìž : ==*
+6. ´ÙÀ½ Áß Java¿¡¼­ ¿¬»êÀÚ¿Í ¿¬°áÀÌ Àß¸ø µÈ °ÍÀº ¹«¾ùÀÔ´Ï±î? *
+´ëÀÔ¿¬»êÀÚ : +=
+°ü°è¿¬»êÀÚ : ==
+´ÜÇ×¿¬»êÀÚ : ++
+ºñ±³¿¬»êÀÚ : ==*
 
-7. "abcdef".contains("a")ì˜ ì¶œë ¥ê²°ê³¼ëŠ” ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+7. "abcdef".contains("a")ÀÇ Ãâ·Â°á°ú´Â ¹«¾ùÀÔ´Ï±î? *
 error
 null
 true*
 false
 
-8. "1234" instanceof String ì˜ ì¶œë ¥ ê²°ê³¼ëŠ” ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+8. "1234" instanceof String ÀÇ Ãâ·Â °á°ú´Â ¹«¾ùÀÔ´Ï±î? *
 0
 null
 true*
 false
 
-9. ë‹¤ìŒ ì¤‘ Java ì—ì„œ ë©”ì†Œë“œì— ëŒ€í•œ ì„¤ëª… ì¤‘ ë°”ë¥¸ ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
-ë¦¬í„´ê°’ì´ ì—†ëŠ” ë©”ì†Œë“œë¥¼ ì •ì˜í•  ìˆ˜ ìžˆë‹¤.*
-ë©”ì†Œë“œëª… ì—†ëŠ” ë©”ì†Œë“œë¥¼ ì •ì˜í•  ìˆ˜ ìžˆë‹¤.
-ë©”ì†Œë“œê°€ ë¦¬í„´ê°’ìœ¼ë¡œ ì‚¬ìš©ë  ìˆ˜ ìžˆë‹¤.
-ë©”ì†Œë“œê°€ ë©”ì†Œë“œì˜ ì¸ìžê°’ìœ¼ë¡œ ì „ë‹¬ë  ìˆ˜ ìžˆë‹¤.
+9. ´ÙÀ½ Áß Java ¿¡¼­ ¸Þ¼Òµå¿¡ ´ëÇÑ ¼³¸í Áß ¹Ù¸¥ °ÍÀº ¹«¾ùÀÔ´Ï±î? *
+¸®ÅÏ°ªÀÌ ¾ø´Â ¸Þ¼Òµå¸¦ Á¤ÀÇÇÒ ¼ö ÀÖ´Ù.*
+¸Þ¼Òµå¸í ¾ø´Â ¸Þ¼Òµå¸¦ Á¤ÀÇÇÒ ¼ö ÀÖ´Ù.
+¸Þ¼Òµå°¡ ¸®ÅÏ°ªÀ¸·Î »ç¿ëµÉ ¼ö ÀÖ´Ù.
+¸Þ¼Òµå°¡ ¸Þ¼ÒµåÀÇ ÀÎÀÚ°ªÀ¸·Î Àü´ÞµÉ ¼ö ÀÖ´Ù.
 
-10. ë‹¤ìŒ ì¤‘ Java ì—ì„œ interfaceì— ëŒ€í•œ ì„¤ëª… ì¤‘ ë°”ë¥¸ ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
-finalì´ ì•„ë‹Œ member fieldê°€ ì¡´ìž¬í•œë‹¤.
-staticì´ ì•„ë‹Œ member fieldê°€ ì¡´ìž¬í•œë‹¤.
-ëª¨ë“  methodëŠ” abstractì´ë‹¤
-static methodë¥¼ ì •ì˜í•  ìˆ˜ ìžˆë‹¤.*
+10. ´ÙÀ½ Áß Java ¿¡¼­ interface¿¡ ´ëÇÑ ¼³¸í Áß ¹Ù¸¥ °ÍÀº ¹«¾ùÀÔ´Ï±î? *
+finalÀÌ ¾Æ´Ñ member field°¡ Á¸ÀçÇÑ´Ù.
+staticÀÌ ¾Æ´Ñ member field°¡ Á¸ÀçÇÑ´Ù.
+¸ðµç method´Â abstractÀÌ´Ù
+static method¸¦ Á¤ÀÇÇÒ ¼ö ÀÖ´Ù.*
 
-11.ë‹¤ìŒ ì¤‘ Java ì—ì„œ java.util.Arrays ì™€ ê´€ë ¨ì´ ì—†ëŠ” ë©”ì†Œë“œëŠ” ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+11.´ÙÀ½ Áß Java ¿¡¼­ java.util.Arrays ¿Í °ü·ÃÀÌ ¾ø´Â ¸Þ¼Òµå´Â ¹«¾ùÀÔ´Ï±î? *
 Arrays.binarySearch(arr, key);
-rrays.asList(arr);
+Arrays.asList(arr);
 Arrays.cloneOf(original, newLength);*
 Arrays.sort(arr);
 
-12. ë‹¤ìŒ ì¤‘ Java ì—ì„œ ì¡´ìž¬í•˜ì§€ ì•ŠëŠ” ì˜ˆì•½ì–´ë¡œ ì§ì§€ì–´ì§„ ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+12. ´ÙÀ½ Áß Java ¿¡¼­ Á¸ÀçÇÏÁö ¾Ê´Â ¿¹¾à¾î·Î Â¦Áö¾îÁø °ÍÀº ¹«¾ùÀÔ´Ï±î? *
 this , super
 int, const*
 class, final
 default, long
 
-13. ë‹¤ìŒ ì¤‘ ë°°ì—´ì— ëŒ€í•œ ì„¤ëª… ì¤‘ ë°”ë¥¸ ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
-ê°ì²´ íƒ€ìž…ì„ ë°°ì—´ë¡œ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.*
-ì •ìˆ˜ íƒ€ìž…ê³¼ ë¬¸ìžì—´ íƒ€ìž…ì„ ë¬¸ìžì—´ ë°°ì—´ì— ì‚¬ìš© í•  ìˆ˜ ìžˆë‹¤.
-ê°ì²´ íƒ€ìž…ë‚´ì—ì„œëŠ” ë°°ì—´ íƒ€ìž…ì„ ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤.
-ë‹¤ë¥¸ íƒ€ìž…ì˜ ë°°ì—´ì„ í•©ì¹  ìˆ˜ ìžˆë‹¤.
+13. ´ÙÀ½ Áß ¹è¿­¿¡ ´ëÇÑ ¼³¸í Áß ¹Ù¸¥ °ÍÀº ¹«¾ùÀÔ´Ï±î? *
+°´Ã¼ Å¸ÀÔÀ» ¹è¿­·Î »ç¿ëÇÒ ¼ö ÀÖ´Ù.*
+Á¤¼ö Å¸ÀÔ°ú ¹®ÀÚ¿­ Å¸ÀÔÀ» ¹®ÀÚ¿­ ¹è¿­¿¡ »ç¿ë ÇÒ ¼ö ÀÖ´Ù.
+°´Ã¼ Å¸ÀÔ³»¿¡¼­´Â ¹è¿­ Å¸ÀÔÀ» »ç¿ëÇÒ ¼ö ¾ø´Ù.
+´Ù¸¥ Å¸ÀÔÀÇ ¹è¿­À» ÇÕÄ¥ ¼ö ÀÖ´Ù.
 
-14. ë‹¤ìŒ ì¤‘ Java ì—ì„œ ë„¤íŠ¸ì›Œí¬ íŒ¨í‚¤ì§€ì™€ ê´€ë ¨ ì—†ëŠ” ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+14. ´ÙÀ½ Áß Java ¿¡¼­ ³×Æ®¿öÅ© ÆÐÅ°Áö¿Í °ü·Ã ¾ø´Â °ÍÀº ¹«¾ùÀÔ´Ï±î? *
 UML*
 URI
 URL
 Socket
 
-15. ë‹¤ìŒ ì¤‘ ì˜ˆì™¸ì²˜ë¦¬ì‹œ ì‚¬ìš©í•˜ëŠ” ì˜ˆì•½ì–´ë¡œ ë°”ë¥´ì§€ ì•Šì€ ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+15. ´ÙÀ½ Áß ¿¹¿ÜÃ³¸®½Ã »ç¿ëÇÏ´Â ¿¹¾à¾î·Î ¹Ù¸£Áö ¾ÊÀº °ÍÀº ¹«¾ùÀÔ´Ï±î? *
 try
 catch
 finally
 error*
 
-16. ë‹¤ìŒ ì¤‘ ë¬¸ìžì—´ ë¹„êµì‹œ ì‚¬ìš©í•˜ëŠ” ë©”ì†Œë“œëª…ì´ ì•„ë‹Œ ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+16. ´ÙÀ½ Áß ¹®ÀÚ¿­ ºñ±³½Ã »ç¿ëÇÏ´Â ¸Þ¼Òµå¸íÀÌ ¾Æ´Ñ °ÍÀº ¹«¾ùÀÔ´Ï±î? *
 like*
 equals
 contains
 compareTo
 
-17. ë‹¤ìŒì¤‘ ìŠ¤ë ˆë“œ ê´€ë ¨ ë©”ì†Œë“œì¤‘ ì‹¤í–‰ë¬¸ êµ¬í˜„ì„ ë‹´ë‹¹í•˜ëŠ” ë©”ì†Œë“œ ì´ë¦„ì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+17. ´ÙÀ½Áß ½º·¹µå °ü·Ã ¸Þ¼ÒµåÁß ½ÇÇà¹® ±¸ÇöÀ» ´ã´çÇÏ´Â ¸Þ¼Òµå ÀÌ¸§Àº ¹«¾ùÀÔ´Ï±î? *
 start
 join
 stop
 run*
 
-18. ë‹¤ìŒì¤‘ ì¶œë ¥ ê²°ê³¼ê°€ ë‹¤ë¥¸ í˜•ì‹ìœ¼ë¡œ ë‚˜ì˜¤ëŠ” ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
+18. ´ÙÀ½Áß Ãâ·Â °á°ú°¡ ´Ù¸¥ Çü½ÄÀ¸·Î ³ª¿À´Â °ÍÀº ¹«¾ùÀÔ´Ï±î? *
 System.out.println(new java.util.GregorianCalendar().getTimeInMillis());
 System.out.println(new java.sql.Date(System.currentTimeMillis()).getTime());
-System.out.println(new java.sql.Time(System.currentTimeMillis()));
-System.out.println(new java.util.Date().getTime());*
+System.out.println(new java.sql.Time(System.currentTimeMillis()));*
+System.out.println(new java.util.Date().getTime());
 
-19. ë‹¤ìŒ ì¤‘ ì•„ëž˜ ìƒì„±í•œ ì»¬ë ‰ì…˜ ë°°ì—´ì„ ëžŒë‹¤ í‘œí˜„ì‹ìœ¼ë¡œ ë°”ë¥´ê²Œ ìˆœ ì •ë ¬í•œ ê²ƒì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
-ìº¡ì…˜ ì—†ëŠ” ì´ë¯¸ì§€
+19. ´ÙÀ½ Áß ¾Æ·¡ »ý¼ºÇÑ ÄÃ·º¼Ç ¹è¿­À» ¶÷´Ù Ç¥Çö½ÄÀ¸·Î ¹Ù¸£°Ô ¼ø Á¤·ÄÇÑ °ÍÀº ¹«¾ùÀÔ´Ï±î? *
+Ä¸¼Ç ¾ø´Â ÀÌ¹ÌÁö
 
 list.sort((arg0, arg1) -> arg0+arg1);
 list.sort((arg0, arg1) -> arg1+arg0);
 list.sort((arg0, arg1) -> arg0-arg1);
 list.sort((arg0, arg1) -> arg1-arg0);*
 
-20. ë‹¤ìŒ ì¤‘ ì•„ëž˜ì˜ ì‹¤í–‰ ì¶œë ¥ ê²°ê³¼ëŠ” ë¬´ì—‡ìž…ë‹ˆê¹Œ? *
-ìº¡ì…˜ ì—†ëŠ” ì´ë¯¸ì§€
+20. ´ÙÀ½ Áß ¾Æ·¡ÀÇ ½ÇÇà Ãâ·Â °á°ú´Â ¹«¾ùÀÔ´Ï±î? *
+Ä¸¼Ç ¾ø´Â ÀÌ¹ÌÁö
 
 1*
 2
