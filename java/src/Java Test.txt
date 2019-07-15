@@ -26,7 +26,7 @@ private*
 add()
 set()
 remove()
-update*
+update()*
 
 6. 다음 중 Java에서 연산자와 연결이 잘못 된 것은 무엇입니까? *
 대입연산자 : +=
